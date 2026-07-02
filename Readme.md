@@ -1,10 +1,3 @@
-Here is the **exact, raw Markdown code** you can copy and paste directly into your `README.md` file. 
-
-*(Note: I have put `your_groq_api_key_here` in the example. **Do not** paste your real API key in the README to keep it safe).*
-
----
-
-```markdown
 # AI Knowledge Assistant (RAG Chatbot)
 
 An intelligent AI assistant that allows users to upload PDF and TXT files and ask questions about the content using Natural Language Processing (RAG - Retrieval-Augmented Generation). Built with Python, LangChain, and Groq LLM.
@@ -110,4 +103,3 @@ sentence-transformers
 Created by **Aftab** ([@luckyman950](https://www.fiverr.com/luckyman950)). 
 
 **Looking to hire?** I am available on Fiverr for custom AI Chatbot and Data Analytics projects!
-```
