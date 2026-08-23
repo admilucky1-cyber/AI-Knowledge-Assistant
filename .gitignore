@@ -1,20 +1,35 @@
+# Environment & secrets
+.env
+backend/.env
+*.env
+
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
-
-# Virtual Environment
+.Python
 venv/
-.venv/
 env/
+.venv/
 
-# Environment Variables (Crucial!)
-.env
+# Uploads & data
+backend/uploads/*
+!backend/uploads/.gitkeep
+uploads/
+*.pdf
+*.txt
+!requirements.txt
 
-# VS Code settings
+# IDE & OS
+.idea/
 .vscode/
-
-# OS files
+*.swp
 .DS_Store
 Thumbs.db
+
+# Model / cache
+.cache/
+*.bin
+*.pt
+*.onnx
